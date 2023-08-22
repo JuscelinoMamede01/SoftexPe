@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex01mod01</title>
+  </head>
+  <body>
+    <h1>Bem vindo, cliente!</h1>
+    <p>
+      Para melhoria de nosso atendimento, criamos este formulário para que você
+      poss nos ajudar a melhorar nosso atendimento.
+    </p>
+    <h3>Pesquisa de satisfação</h3>
+    <p>
+      <em
+        >Favor responder as perguntas abaixo, para qualificarmos nossa forma de
+        atendimento.</em
+      >
+    </p>
+    <form action="banco.php">
+      <p>P01 - Como foi o atendimento feito por nossos colaboradores?</p>
+      <input type="radio" id="P01" name="P01" />
+      <label for="P01">Sim</label> <br />
+      <input type="radio" id="P01" name="P01" />
+      <label for="P01">Não</label>
+      <p>P02 - Marque as opções que mais lhe agradou:</p>
+      <input type="checkbox" id="P02" name="Grelhados" />
+      <label for="P02">Grelhados</label> <br />
+      <input type="checkbox" id="P02" name="Massa" />
+      <label for="P02">Massa</label> <br />
+      <input type="checkbox" id="P02" name="Bebidas" />
+      <label for="P02">Bebidas</label> <br />
+      <input type="checkbox" id="P02" name="Sobremesas" />
+      <label for="P02">Sobremesas</label> <br />
+      <p>P03 - Como foi o tempo de espera?</p>
+      <input type="radio" id="P03" name="P03" />
+      <label for="P03">Satisfatório</label> <br />
+      <input type="radio" id="P03" name="P03" />
+      <label for="P03">Normal</label> <br />
+      <input type="radio" id="P03" name="P03" />
+      <label for="P03">Demorado</label>
+      <p>P04 - Alguma sugestão para nosso cardápio?</p>
+      <textarea id="story" name="story" rows="5" cols="33">
+ Escreva aqui</textarea
+      ><br />
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="name" /><br />
+      <label for="mesa">Mesa:</label><br />
+      <input type="text" id="mesa" name="mesa" /><br />
+      <label for="dateTime">Horário da Saída:</label><br />
+      <input type="datetime-local" /><br /><br />
+      <input type="button" value="Enviar" />
+    </form>
+    <footer>
+      <br /><br />
+      <p>Trabalho de sala 16/03/2023</p>
+      <p><br /><br /></p>
+    </footer>
+  </body>
+</html>
