@@ -1,0 +1,11 @@
+1. Defina o que é uma variável na programação.
+
+Uma variável são os espaços criados na memória que armazenam os valores que declaramos ao criá-las.
+
+2. Escreva com as suas palavras a diferença entre as declarações const, let e var e como elas podem ser aplicadas na prática.
+
+`const` é uma variável que não pode ter seu valor alterado. Seu valor será constante durante todo o algoritmo. `let` e `var` são variáveis que podem ter seus valores subescritos, ou seja, poderão ter o valor atualizado durante a execução do algoritmo. Lembrando que `var` já não é tão utilizado.
+
+3. Explique a diferença entre as variáveis do tipo objeto e lista.
+
+O objeto contém atributos e funções e geralmente representa uma entidade com características relacionadas. Já a lista pode armazenar vários valores e cada um deles terá um índice de posição dentro dessa lista. Isso permitirá um acesso e manipulação dos elementos de forma ordenada.
