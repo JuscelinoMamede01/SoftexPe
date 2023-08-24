@@ -26,9 +26,10 @@ header {
 }
 
 nav {
-  width: 40%;
+  width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+
 }
 
 nav>a {
