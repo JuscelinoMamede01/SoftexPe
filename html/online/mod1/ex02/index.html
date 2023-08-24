@@ -12,9 +12,15 @@
       <h1 class="logo"><a href="#" class="logo">LOGO</a></h1>
       <nav>
         <a href="#" class="textNavBar">Home</a>
-        <a href="#section1" class="textNavBar">Turismo de Aventura</a>
-        <a href="#section2" class="textNavBar">Gastronomia</a>
-        <a href="#section3" class="textNavBar">Novidades</a>
+        <a class="textNavBar" onclick="scrollToSection('#section1')"
+          >Turismo de Aventura</a
+        >
+        <a class="textNavBar" onclick="scrollToSection('#section2')"
+          >Gastronomia</a
+        >
+        <a class="textNavBar" onclick="scrollToSection('#section3')"
+          >Novidades</a
+        >
       </nav>
     </header>
     <main>
@@ -192,5 +198,6 @@
       </section>
       <p class="footer-p">Copyright &copy; 2023.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
