@@ -1,0 +1,126 @@
+Aula 01 - Introdução ao HTML
+
+
+Conhecendo o HTML e sua estrutura básica
+1. O que é o HTML e qual é o seu papel na construção de páginas web? Descreva brevemente a
+estrutura básica de um documento HTML.
+
+O HTML é uma linguagem de marcação de texto. Criada por Tim Bernes lee com o intuíto de criar uma rede de compartilhamento de informações. 
+Por meio de hyperlinks.
+
+2. Como o HTML se relaciona com outras tecnologias da web, como o CSS e o JavaScript? Como essas
+três tecnologias trabalham em conjunto para criar páginas web interativas e estilizadas?
+
+O HTML é o arquivo que vai estruturar todo o contéudo do site.O CSS é quem vai dar o estilo da página e o 
+JS é uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente, controlar múltimídias, imagens animadas, e tudo o mais que há de intessante
+
+
+Identificando tags HTML básicas
+
+1. Cite três tags HTML básicas e explique o propósito de cada uma delas. Dê exemplos de situações em
+que você as usaria ao construir uma página web.
+
+<p></p> // Serve para criar paragrafos no site
+<h1></h1> // Serve para dar titulos no site
+<form action=""></form> // Serve para criar formulários no site.
+
+2. Além das tags mencionadas, qual é a importância das tags de listagem, como <ul> e <ol>, no
+contexto da estruturação de conteúdo em uma página? Dê exemplos de quando você escolheria
+uma sobre a outra.
+
+A listas servem para organizar os items de uma lista que desejamos inserir no site. 
+Quando desejamos divulgar o resultado de uma corrida informando a posição do 1º ao último usamos a TAG ol.
+Já para usar a ul, podemos criar uma lista de igredientes de uma receita.
+
+
+Vinculando páginas, arquivos e âncoras
+
+1. Como a tag <a> é utilizada para criar links em HTML? Explique como você pode vincular para outras
+páginas, para arquivos locais e criar âncoras dentro de uma página.
+
+A TAG <a> é utilizada para gerar links que levará o usuário para uma determinada página de outro site, um link para outro site ou uma seção no próprio 
+site onde o usuário ja está navegando.
+
+2. Além do atributo href, quais outros atributos importantes a tag <a> pode ter? Como o atributo
+target pode ser usado para controlar como o link é aberto pelo navegador?
+O atributo rel que sua principal finalidade é evitar com que pessoas paguem desenvolvedores de sites para aumentarem a visualização dos seus links ranqueamento.
+o target define que se aoclicarmos a pagina do link seja aberto na mesma guia que estamos utilizando ou em outra guia ao lado.
+
+
+Incorporando imagens e mídias
+
+1. Descreva a diferença entre os atributos src e alt em relação à tag <img>. Por que é importante
+fornecer um atributo alt adequado para imagens?
+O src é o atributo onde inserimos o endereço do arquivo que desejamos utilizar.
+O alt é o atributo que utilizamos para escrever a informação da img caso ela nao carregue.
+
+2. Além de imagens, quais outros tipos de mídia podem ser incorporados em uma página HTML?
+Como você pode garantir que a mídia incorporada seja responsiva e se ajuste bem em diferentes
+dispositivos?
+
+Podemos utilizar as TAGS 
+<video src=""></video>
+<audio src=""></audio>
+Utilizando o atributo controls conseguimos fazer com que os elementos de reprodução aparecam tanto no vídeo como no áudio.
+
+
+Criando tabelas básicas
+1. Quais são as principais tags usadas para criar tabelas em HTML? Explique a diferença entre as tags
+<th> e <td>, e quando você as usaria.
+essas são as TAGS para criarmos uma table:
+<table>
+  <thead>
+    <tr>
+      <th></th> // Serve para identificar o cabeçalho da table criada.
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>// Serve para inserir os dados de cada campo na tabela.
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td></td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
+2. Embora tabelas sejam usadas para exibir dados tabulares, às vezes é recomendado evitá-las em
+favor de outras formas de apresentação de dados. Por quê? E quais são os cenários em que as
+tabelas são apropriadas?
+
+
+Criando formulários
+
+1. Como a tag <form> é utilizada para criar formulários em HTML? Cite pelo menos três tipos
+diferentes de campos de entrada (<input>) que podem ser usados em um formulário.
+
+Quando desejamos coletar dados do usuário.
+<input type="button" value=""> // Serve para criar um botão de enviar.
+<input type="checkbox" name="" id="">// serve para escolher uma opçao de reposta ou várias. Opção de multipla escolha.
+<input type="datetime" name="" id="">// Serve para selecionar data e hora
+
+2. Além dos campos de entrada, quais outros elementos podem ser incluídos em um formulário para
+melhorar a usabilidade e a experiência do usuário?
+<label for=""></label>// Serve para identificar o input relacionado
+<fieldset></fieldset>// Serve para agrupar os campos de mesma infromação a ser coletada. 
+Fazendo  com que o usário possa identificar da melhor forma o que se pede.
+
+
+Técnicas avançadas de estruturação com elementos HTML5 semânticos
+
+1. O que são elementos HTML5 semânticos e por que são importantes na estruturação de uma
+página? Cite três exemplos de elementos semânticos e explique quando você os usaria.
+
+<header>, <main> e <footer>. Essa são Tags que facilitam a leitura do desenvolvedor identificando cada área do body.
+
+2. Além da semântica, como os elementos HTML5 podem afetar a acessibilidade das páginas web? Por
+que é fundamental considerar a acessibilidade ao escolher elementos de estruturação? 
+
+Basicamente temos 3 considerações:
+Mais fácil de ser desenvolvida —  torna o código mais fácil de ser lido e entendido.
+Melhor nos dispositivos móveis — HTML semântico é mais leve que o código não-semântico (aquele código espaguete) em comparação de tamanho de arquivos, também é mais fácil de ser adaptado ao responsivo.
+Bom para o SEO — mecanismos de busca dão mais importância para palavras-chave que são incluidas em títulos, links, etc. do que para palavras-chave incluídas em <div>s não semânticas, etc. Então suas páginas serão mais fáceis de serem encontradas pelos seus clientes.
