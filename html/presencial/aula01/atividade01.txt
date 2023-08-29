@@ -91,7 +91,7 @@ essas são as TAGS para criarmos uma table:
 2. Embora tabelas sejam usadas para exibir dados tabulares, às vezes é recomendado evitá-las em
 favor de outras formas de apresentação de dados. Por quê? E quais são os cenários em que as
 tabelas são apropriadas?
-
+Em HTML, as tabelas são usadas para exibir dados tabulares, mas seu uso excessivo pode complicar a visualização e dificultar a acessibilidade. Gráficos e CSS podem ser preferíveis para apresentação visual, enquanto tabelas ainda são adequadas para dados precisos e estruturados.
 
 Criando formulários
 
