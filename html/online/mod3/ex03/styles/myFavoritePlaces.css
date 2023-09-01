@@ -71,9 +71,7 @@ body {
   line-height: 36px;
   margin: 15px;
   text-align: center;
-  color: #54420c;
-  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
-    1px 0px 0px #fff;
+  color: #000;
 }
 
 .h3-titles {
@@ -83,9 +81,7 @@ body {
   line-height: 36px;
   margin: 0 0 24px;
   text-align: center;
-  color: #54420c;
-  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
-    1px 0px 0px #fff;
+  color: black;
 }
 
 .main-paragraph {
