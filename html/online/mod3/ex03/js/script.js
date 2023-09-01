@@ -9,7 +9,7 @@ sr.reveal(".main-paragraph", {
   duration: 1000,
   delay: 400,
 });
-sr.reveal(".h2-titles", {
+sr.reveal(".h2-titles, .h3-titles", {
   duration: 1000,
   delay: 400,
 });
@@ -19,6 +19,18 @@ sr.reveal(".gallery", {
   delay: 400,
 });
 sr.reveal(".israel-flag", {
+  origin: "bottom",
+  distance: "160px",
+  duration: 1000,
+  delay: 400,
+});
+sr.reveal(".img-p,.img-p2", {
+  origin: "left",
+  distance: "160px",
+  duration: 1000,
+  delay: 400,
+});
+sr.reveal("iframe", {
   origin: "bottom",
   distance: "160px",
   duration: 1000,

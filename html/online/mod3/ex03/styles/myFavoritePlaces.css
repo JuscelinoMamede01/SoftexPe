@@ -9,6 +9,13 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Raleway, sans-serif;
+  background: rgb(0, 38, 162);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 38, 162, 1) 0%,
+    rgba(244, 244, 244, 1) 70%,
+    rgba(0, 38, 162, 1) 100%
+  );
 }
 
 .main-container {
@@ -21,11 +28,6 @@ body {
   align-items: center;
 }
 
-.logo {
-  width: 15%;
-  padding: 10px;
-}
-
 .h3-link-header {
   display: flex;
   align-items: center;
@@ -33,7 +35,7 @@ body {
 
 .link-header {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 .intro {
@@ -57,6 +59,9 @@ body {
   padding: 0 0 24px;
   text-align: center;
   text-transform: uppercase;
+  color: #54420c;
+  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
+    1px 0px 0px #fff;
 }
 
 .h2-titles {
@@ -66,6 +71,9 @@ body {
   line-height: 36px;
   margin: 15px;
   text-align: center;
+  color: #54420c;
+  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
+    1px 0px 0px #fff;
 }
 
 .h3-titles {
@@ -75,12 +83,16 @@ body {
   line-height: 36px;
   margin: 0 0 24px;
   text-align: center;
+  color: #54420c;
+  text-shadow: -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff,
+    1px 0px 0px #fff;
 }
 
 .main-paragraph {
   text-align: justify;
   margin-top: 10px;
   overflow: hidden;
+  color: black;
 }
 
 .box-article {
@@ -106,7 +118,8 @@ body {
 }
 
 .footer-p {
-  border-top: 1px solid black;
+  border-top: 1px solid #fff;
   padding-top: 25px;
   text-align: center;
+  color: #fff;
 }
