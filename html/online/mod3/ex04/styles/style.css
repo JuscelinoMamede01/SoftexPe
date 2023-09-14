@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway, sans-serif;
+  background: rgb(0, 38, 162);
+  background: linear-gradient(180deg,
+      rgba(0, 38, 162, 1) 0%,
+      rgba(244, 244, 244, 1) 70%,
+      rgba(0, 38, 162, 1) 100%);
+}
+
+.header-container {
+  width: 100%;
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(244, 244, 244, 0.5);
+}
+
+.logo {
+  width: 15%;
+  padding: 10px;
+}
+
+.h3-link-header {
+  display: flex;
+  align-items: center;
+}
+
+.link-header {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-header:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.intro {
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -1px -1px 0px #0026a2, -1px 1px 0px #0026a2, 1px -1px 0px #0026a2,
+    1px 0px 0px #0026a2;
+}
+
+.intro-content {
+  width: 100%;
+  display: flex;
+}
+
+.intro-left,
+.intro-right {
+  width: 50%;
+  padding: 15px;
+}
+
+.intro-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2-titles {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 0 0 24px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -1px -1px 0px #0026a2, -1px 1px 0px #0026a2, 1px -1px 0px #0026a2,
+    1px 0px 0px #0026a2;
+}
+
+.main-paragraph {
+  text-align: justify;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.israel-flag {
+  width: 75%;
+}
+
+.israel-flag,
+.main-paragraph,
+.h2-titles,
+.home-title,
+.gallery {
+  visibility: hidden;
+}
+
+.midias {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.gallery {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  border: 2px solid rgba(0, 38, 162, 0.25);
+  border-radius: 4px;
+  padding: 25px;
+  background-color: rgba(0, 38, 162, 0.1);
+}
+
+.article-pics {
+  width: 95%;
+  align-self: center;
+  justify-self: center;
+}
+
+.article-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.video {
+  width: 84%;
+}
+
+.footer-container {
+  height: 20vh;
+  margin-top: 100px;
+  padding: 25px;
+  border-top: 1px solid #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  width: 50%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.h3-footer {
+  width: 100%;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -1px -1px 0px #0026a2, -1px 1px 0px #0026a2, 1px -1px 0px #0026a2,
+    1px 0px 0px #0026a2;
+}
+
+.footer-p {
+  height: 15%;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+}
+
+.footer-p2 {
+  height: 15%;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-top: 55px;
+}
+
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-header {
+    width: 100%;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .intro-content {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .intro-left,
+  .intro-right {
+    width: 90%;
+
+  }
+
+  .israel-flag {
+    display: none;
+  }
+
+  .h2-titles,
+  .h3-titles {
+    font-size: 1.5rem;
+  }
+
+
+  .video iframe {
+    width: 100%;
+    height: 55%;
+  }
+
+  .footer-container {
+    height: 20vh;
+    margin-top: 100px;
+    padding: 25px;
+    border-top: 1px solid #fff;
+
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+  }
+
+  .socials-container,
+  .contact-container {
+    width: 100%;
+
+  }
+
+  .footer-p {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    padding-top: 5px;
+  }
+
+
+  .footer-p2 {
+    padding-top: 75px;
+  }
+}

@@ -1,0 +1,104 @@
+Aula 02 - Introdução ao CSS
+Compreendendo o CSS e seu papel no desenvolvimento web
+
+1. O que é o CSS e qual é o seu papel no desenvolvimento web? Como o CSS ajuda a separar a
+apresentação visual do conteúdo estrutural em uma página web?
+
+R- CSS é um documento de estilo em cascata com finalidade para dar estilo a toda estrutura HTML.
+Ele define o estilo de cada estrutura no HTML. Facilita reponsividade.
+
+2. Além do HTML, quais outras tecnologias frequentemente trabalham em conjunto com o CSS para
+melhorar a experiência do usuário em um site? Como essa integração afeta a usabilidade e a
+estilização das páginas?
+
+R- JS é outra tecnologia que trabalha junto com o CSS. Frameworks tanto de estilo como de JS também trabalham em conjunto.
+
+Identificando a estrutura de uma regra CSS
+1. Descreva os três componentes principais de uma regra CSS: seletor, propriedades e valores. Dê um
+exemplo de uma regra CSS completa.
+
+R- O seletor é a tag ou elemento estruturante HTML. propriedades são As características que vamos trabalhar nos elemento e os valores definem o nível, intensidade, tamanho, estilo de fonte e etc...
+
+2. Como as regras CSS são interpretadas pelos navegadores? Como o navegador determina qual estilo
+aplicar a um elemento específico com base nas regras CSS?
+
+R-Os navegadores interpretam o código sempre de cima para baixo e da esquerda para direita. Lembrando que haverá situações de hierarquia.
+
+Aplicando estilos básicos usando seletores
+1. Explique a diferença entre seletores de tipo, classe e ID no CSS. Quando você usaria um seletor de
+classe em vez de um seletor de ID?
+
+R- Seletor de tipo é o elemento Html Geral. Se for adicionado uma propriedade nele, isso será aplicado para todos elementos do documento HTML. As classes são usadas quando temos que estilizar vários elementos de uma vez só. Já o Id é um estilo mais especifico pois ele tem que nao pode ser repetido no documento html.
+
+2. Além dos seletores básicos, como os seletores de pseudo-elementos podem ser usados para
+estilizar partes específicas de um elemento HTML? Dê exemplos.
+
+R-Os seletores de pseudo-elementos permitem estilizar partes específicas de um elemento HTML
+::first-line: Estiliza a primeira linha de um elemento, como um parágrafo.
+::placeholder: Estiliza o texto de placeholder em campos de entrada.
+
+Controlando tamanho e posicionamento com box model
+1. O que é o modelo de caixa (box model) no CSS? Descreva as partes principais do modelo de caixa e
+como as propriedades de margem, borda e preenchimento (margin, border e padding) afetam o
+tamanho de um elemento.
+
+2. Como você pode usar o modelo de caixa para controlar o espaçamento entre elementos em uma
+página? Dê exemplos de situações em que ajustar as margens, bordas e preenchimentos seria útil.
+
+Compreendendo o modelo de layout Flexbox
+1. Explique o que é o modelo de layout Flexbox. Quais são os principais conceitos por trás desse
+modelo e como ele facilita a criação de layouts responsivos?
+
+R-O modelo de layout Flexbox é um sistema de posicionamento no CSS que organiza elementos em um único ou em ambos os eixos, permitindo layouts flexíveis e responsivos.
+
+2. Compare o modelo de layout Flexbox com o modelo de layout baseado em grades (Grid Layout). Em
+quais situações você escolheria usar um modelo sobre o outro?
+
+R-O modelo de layout Flexbox é ideal para layouts unidimensionais (uma linha ou uma coluna), enquanto o modelo Grid Layout é mais adequado para layouts bidimensionais (linhas e colunas). Use Flexbox para disposições simples e Grid Layout para layouts complexos.
+
+Utilizando propriedades de fonte para estilizar textos
+1. Cite pelo menos três propriedades CSS que podem ser usadas para estilizar textos. Como você pode
+aplicar essas propriedades para melhorar a legibilidade e a estética do texto em uma página web?
+
+R-Propriedades como font-size, font-family e font-weight podem ser usadas para estilizar textos. Ajustar line-height e letter-spacing melhora legibilidade e estética.
+
+2. Além das propriedades de fonte, como as propriedades de espaçamento (como line-height e
+letter-spacing) podem afetar a aparência do texto em uma página?
+
+R-Propriedades de espaçamento como line-height afetam o espaço entre as linhas, enquanto letter-spacing controla o espaço entre letras. Elas influenciam a aparência e a legibilidade do texto.
+
+Aplicando cores a elementos
+1. Descreva as propriedades color e background-color no CSS. Como você pode usar essas
+propriedades para definir as cores do texto e do fundo de um elemento?
+
+R-color define a cor do texto, e background-color define o fundo de um elemento no CSS. Elas permitem personalizar a aparência visual.
+
+2. Além das cores sólidas, como o CSS permite a aplicação de gradientes de cores em elementos?
+Quais são as vantagens de usar gradientes em comparação com cores sólidas?
+
+R-CSS permite gradientes de cores usando background-image. Gradientes oferecem transições suaves entre cores e podem criar efeitos visuais interessantes.
+
+Identificando pseudoclasses comuns
+1. O que são pseudoclasses no CSS e por que elas são usadas? Dê exemplos de pseudoclasses comuns,
+como :hover, :active, :visited e :focus, e explique quando elas são aplicadas.
+
+R-Pseudoclasses são seletores que representam estados ou interações, como :hover (sobre), :active (clique), :visited (visitado) e :focus (foco). Elas personalizam estilos com base na interação do usuário.
+
+2. Além das pseudoclasses mencionadas, cite outras pseudoclasses que podem ser usadas para criar
+interações e estilos específicos em elementos HTML. Como as pseudoclasses contribuem para a
+experiência do usuário?
+
+R-Outras pseudoclasses incluem :nth-child, :not, e :checked. Elas permitem seleções mais específicas e personalizadas, melhorando a experiência do usuário.
+
+Criando layouts responsivos
+1. O que é um layout responsivo e por que é importante considerar a responsividade ao desenvolver
+um site? Como as consultas de mídia (media queries) são usadas para criar layouts que se adaptam
+a diferentes dispositivos?
+
+R-Um layout responsivo se adapta a diferentes dispositivos e tamanhos de tela, priorizando a experiência do usuário. As consultas de mídia (@media queries) permitem aplicar estilos específicos com base nas dimensões da tela.
+
+2. Além das consultas de mídia, quais outras abordagens podem ser usadas para melhorar a
+responsividade de um site? Como o design fluido e os sistemas de grid podem contribuir para uma
+experiência consistente em diversos dispositivos?
+
+R-O design fluido faz com que os elementos se ajustem automaticamente ao tamanho da tela, enquanto os sistemas de grid fornecem estruturas flexíveis para layouts responsivos. Ambas as abordagens contribuem para uma experiência consistente em diversos dispositivos.
