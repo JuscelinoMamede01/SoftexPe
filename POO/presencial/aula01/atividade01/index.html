@@ -10,42 +10,50 @@
     />
     <title>Calculadora DOM</title>
   </head>
-  <body>
-    <div class="col-4 container">
-      <h1 class="h1 text-center">Calculadora DOM</h1>
-      <div class="container bg-dark rounded p-3">
-        <div class="row justify-content-center align-items-end p-3">
-          <div id="display" class="col-10 return bg-light rounded p-2 text-end">
-            Valor dos botoes
-          </div>
+  <body class="bg-secondary bg-gradient">
+    <div class="col-3 container">
+      <h1 class="h1 text-center text-white">Calculadora DOM</h1>
+      <div class="container bg-dark opacity-75 rounded p-3">
+        <div class="row justify-content-center align-items-end">
+          <p id="display" class="col-10 return bg-light rounded p-4 text-end">
+            0
+          </p>
+        </div>
+        <div class="row p-4 justify-content-end">
+          <button
+            onclick="clean()"
+            class="btn col-5 me-2 btn-secondary text-white btn-lg"
+          >
+            C
+          </button>
         </div>
 
         <div class="row gap-3 p-2 justify-content-center">
           <button
             value="7"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             7
           </button>
           <button
             value="8"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             8
           </button>
           <button
             value="9"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             9
           </button>
           <button
             value="+"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             +
           </button>
@@ -54,28 +62,28 @@
           <button
             value="4"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             4
           </button>
           <button
             value="5"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             5
           </button>
           <button
             value="6"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             6
           </button>
           <button
             value="-"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             -
           </button>
@@ -84,28 +92,28 @@
           <button
             value="1"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             1
           </button>
           <button
             value="2"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             2
           </button>
           <button
             value="3"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             3
           </button>
           <button
             value="*"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             x
           </button>
@@ -114,28 +122,28 @@
           <button
             value="0"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             0
           </button>
           <button
             value="."
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             .
           </button>
           <button
             value="="
-            onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            onclick="operation()"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             =
           </button>
           <button
             value="/"
             onclick="getValue(this)"
-            class="col-2 btn bg-secondary text-white btn-lg"
+            class="col-2 btn btn-secondary text-white btn-lg"
           >
             /
           </button>

@@ -1,11 +1,21 @@
-let n1 = 0;
-let n2 = 0;
-let op = "";
-let operation;
+const getValue = (btn) => {
+  let value = btn.getAttribute("value");
+  let displayNumber = document.getElementById("display").innerHTML;
 
-const getValue = (element) => {
-  return element.value;
+  if (displayNumber === "0") {
+    document.getElementById("display").innerHTML = value;
+  } else {
+    document.getElementById("display").innerHTML = displayNumber + value;
+  }
 };
 
-const display = document.getElementById("display");
-display.innerHTML = "number";
+const clean = () => {
+  document.getElementById("display").innerHTML = 0;
+};
+
+const operation = () => {
+  let operation = document.getElementById("display").innerHTML;
+  if (operation) {
+    document.getElementById("display").innerHTML = eval(operation);
+  }
+};
