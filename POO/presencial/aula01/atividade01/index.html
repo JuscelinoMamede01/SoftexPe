@@ -11,7 +11,7 @@
     <title>Calculadora DOM</title>
   </head>
   <body class="bg-secondary bg-gradient">
-    <div class="col-3 container">
+    <div class="container col-lg-3">
       <h1 class="h1 text-center text-white">Calculadora DOM</h1>
       <div class="container bg-dark opacity-75 rounded p-3">
         <div class="row justify-content-center align-items-end">
@@ -19,16 +19,16 @@
             0
           </p>
         </div>
-        <div class="row p-4 justify-content-end">
+        <div class="row justify-content-center">
           <button
             onclick="clean()"
-            class="btn col-5 me-2 btn-secondary text-white btn-lg"
+            class="btn col-10 btn-secondary text-white btn-lg"
           >
             C
           </button>
         </div>
 
-        <div class="row gap-3 p-2 justify-content-center">
+        <div class="row p-2 justify-content-evenly">
           <button
             value="7"
             onclick="getValue(this)"
@@ -58,7 +58,7 @@
             +
           </button>
         </div>
-        <div class="row gap-3 p-2 justify-content-center">
+        <div class="row p-2 justify-content-evenly">
           <button
             value="4"
             onclick="getValue(this)"
@@ -88,7 +88,7 @@
             -
           </button>
         </div>
-        <div class="row gap-3 p-2 justify-content-center">
+        <div class="row p-2 justify-content-evenly">
           <button
             value="1"
             onclick="getValue(this)"
@@ -118,7 +118,7 @@
             x
           </button>
         </div>
-        <div class="row gap-3 p-2 justify-content-center">
+        <div class="row p-2 justify-content-evenly">
           <button
             value="0"
             onclick="getValue(this)"
