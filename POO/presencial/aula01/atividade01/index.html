@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+    />
+    <title>Calculadora DOM</title>
+  </head>
+  <body>
+    <div class="col-4 container">
+      <h1 class="h1 text-center">Calculadora DOM</h1>
+      <div class="container bg-dark rounded p-3">
+        <div class="row justify-content-center align-items-end p-3">
+          <div id="display" class="col-10 return bg-light rounded p-2 text-end">
+            Valor dos botoes
+          </div>
+        </div>
+
+        <div class="row gap-3 p-2 justify-content-center">
+          <button
+            value="7"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            7
+          </button>
+          <button
+            value="8"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            8
+          </button>
+          <button
+            value="9"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            9
+          </button>
+          <button
+            value="+"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            +
+          </button>
+        </div>
+        <div class="row gap-3 p-2 justify-content-center">
+          <button
+            value="4"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            4
+          </button>
+          <button
+            value="5"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            5
+          </button>
+          <button
+            value="6"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            6
+          </button>
+          <button
+            value="-"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            -
+          </button>
+        </div>
+        <div class="row gap-3 p-2 justify-content-center">
+          <button
+            value="1"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            1
+          </button>
+          <button
+            value="2"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            2
+          </button>
+          <button
+            value="3"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            3
+          </button>
+          <button
+            value="*"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            x
+          </button>
+        </div>
+        <div class="row gap-3 p-2 justify-content-center">
+          <button
+            value="0"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            0
+          </button>
+          <button
+            value="."
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            .
+          </button>
+          <button
+            value="="
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            =
+          </button>
+          <button
+            value="/"
+            onclick="getValue(this)"
+            class="col-2 btn bg-secondary text-white btn-lg"
+          >
+            /
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
