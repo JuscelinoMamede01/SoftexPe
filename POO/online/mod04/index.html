@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/style.css" />
+    <title>mod04Ex01</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1>JK BANK</h1>
+      <form>
+        <label for="operacao">Escolha uma operação:</label>
+        <select id="operacao">
+          <option value="saldo">Consultar Saldo</option>
+          <option value="deposito">Realizar Depósito</option>
+          <option value="saque">Realizar Saque</option>
+          <option value="numero_conta">Número da Conta</option>
+        </select>
+        <br />
+        <label for="valor">Valor:</label>
+        <input type="text" id="valor" />
+        <br />
+        <button type="button" onclick="sistemaBanco()">Executar</button>
+        <p id="resultado"></p>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
