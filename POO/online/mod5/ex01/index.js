@@ -1,4 +1,3 @@
-// Objeto Material: Carro
 const carro = {
   marca: "Toyota",
   modelo: "Camry",
@@ -14,7 +13,6 @@ const carro = {
   },
 };
 
-// Objeto Material: Mesa
 const mesa = {
   material: "Madeira",
   tamanho: { comprimento: 120, largura: 80, altura: 75 },
@@ -31,7 +29,7 @@ const mesa = {
   },
 };
 
-// Objeto Abstrato: Conta Bancária
+// Objeto Abstrato
 const contaBancaria = {
   numeroConta: "12345",
   saldo: 1000,
@@ -53,7 +51,6 @@ const contaBancaria = {
   },
 };
 
-// Objeto Abstrato: Rede Social
 const redeSocial = {
   nome: "Facebook",
   numeroUsuarios: 2500000000,
